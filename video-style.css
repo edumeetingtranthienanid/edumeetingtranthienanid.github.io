@@ -1,0 +1,403 @@
+@charset "utf-8";
+/* CSS Document */
+body{  
+	margin:0;
+	font-family: 'Poppins', sans-serif;
+	font-size:14px;color:#fff;
+}
+a{color:#fff;text-decoration: none}
+a:hover{color:#f5a425}
+.menu-active{color:#f5a425!important}
+.top-video{width:100%;height:100%}
+.top-view{position: relative;margin-bottom:1294px}
+.over-flow{position: absolute;
+			background-image:linear-gradient(rgba(31,39,43,0.7),rgba(31,39,43,0.8));
+			width:100%;height:100%;
+			left:0;top:0
+}
+header{;position: absolute;top:0;width:100%;z-index:99}
+.logo a:hover{color:#fff!important}
+.top-bar {font-size:0.9em;background:#1E2529;}
+.address{padding-left:0 !important;}
+.address i{margin-right:10px}
+.ss-media{padding-right:0 !important;}
+.ss-p-left-0{padding-right:0 !important;}
+.ss-media i{padding:0 7px}
+.navbar{background:rgba(255,255,255,0.15);padding:25px 0;color:#fff}
+.navbar .container{justify-content:space-between;display:flex;}
+.navbar .logo{font-size:2em;
+			padding-left:0;
+			font-weight: bold;
+			letter-spacing: 2px;}
+.menu{margin:0;padding:0;}
+.menu ul{display:flex;list-style:none;margin:0;padding:0}
+.menu ul li{position:relative;
+			padding: 15px ;
+			text-transform:uppercase;
+			letter-spacing: 1px;
+			}
+
+.menu ul ul{flex-direction:column;position:absolute;z-index:999;padding:0;
+			background:#f7f7f7;box-shadow:0 3px 5px #9999;
+			transition:all 0.4s;top:160%;opacity:0;visibility:hidden;width:200px;}
+.menu ul ul a{font-size:0.8em;color:black;padding-left:10px;transition: all .5s;}
+.menu ul ul a:hover{color:#f5a425;padding-left:20px;background:#FDF8F1}
+.menu ul ul li{border-bottom: 1px solid #eee;margin:0;padding:13px;}
+
+.menu ul li:hover > ul{top:100%;opacity:1;visibility:visible;}
+.video-capiton{position: absolute;top:35%;width:100%;}
+.video-capiton h1{font-size:2.6em;margin:0;letter-spacing:1px}
+.video-capiton h4{letter-spacing: 1px;margin-bottom:10px;font-weight:400;font-size:1.1em}
+.video-capiton p{width:45%;line-height:1.8em;}
+.video-capiton a{color:#3CF;font-size:0.9em}
+.video-capiton a:hover{color:#f5a425;cursor:pointer}
+.video-capiton .btn-primary{color:#fff}
+.video-capiton .btn-primary:hover{color:black}
+.banner{position:absolute;
+		top:83%;left:7.5%;width:100%;
+}
+#banner .item{
+	background:url("../images/service-item-bg.jpg");
+	text-align: center;
+	padding:45px;border-radius:20px;font-family:'Noto Sans', sans-serif;
+}
+#banner .item img{
+	width:18%;margin:auto
+}
+#banner .item h4{
+	font-size:1.3em;margin-bottom:15px
+}
+#banner .item p{
+	margin:0;line-height:1.8em;
+}
+#banner .owl-nav {
+      position: absolute; left: 0; width: 100%; top: 40%
+} 
+#banner .owl-nav {
+      position: absolute; left: 0; width: 100%; top: 40%
+} 
+#banner .owl-nav [class*='owl-'] {  position: absolute}
+ #banner .owl-nav .owl-next{ right: -80px;}
+#banner .owl-nav .owl-prev{ left: -80px}
+#banner .owl-nav .owl-prev span,
+#banner .owl-nav .owl-next span {
+  opacity: 0;
+}
+#banner .owl-nav .owl-prev:before {
+  display: inline-block;
+  font-family: "Font Awesome 5 Free";
+  color: #1e1e1e;
+  font-size: 25px;
+  font-weight: 700;
+  content: "\f104";
+  background-color: #fff;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  line-height: 50px;
+}
+#banner .owl-nav .owl-next:before {
+  display: inline-block;
+  font-family:"Font Awesome 5 Free";
+  color: #1e1e1e;
+  font-size: 25px;
+  font-weight: 700;
+  content: '\f105';
+  background-color: #fff;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  line-height: 50px;
+}
+#banner .owl-nav .owl-prev:hover:before, #banner .owl-nav .owl-next:hover:before{ background: #ddd}
+#main-page-meeting-bg{
+	background:url("../images/meetings-bg.jpg");
+	min-height: 500px;
+	background-position: center center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+	position: absolute;width:100%;top:99%
+}
+#main-page-meeting-bg .headline{
+	margin-top:210px;padding:15px;font-size:1.1em;
+	border-bottom: 1px solid rgba(250,250,250,0.15)}
+#main-page-meeting-bg .left-content-1{padding:40px;margin-right:37px;border-radius:20px}
+#main-page-meeting-bg .left-content-1{background:#fff;color:#1f272b}
+#main-page-meeting-bg .left-content-1 .down-text{border-bottom: 1px solid #eee;padding-bottom:15px}
+#main-page-meeting-bg .left-content-1 a {color:#1f272b;display: block;margin:10px 0;margin-bottom:15px;font-size:1.1em}
+#main-page-meeting-bg .left-content-1 a:hover{color:#a12c2f}
+#main-page-meeting-bg .left-content-1 h2{margin-top:0;padding-bottom:20px;border-bottom: 1px solid #eee;margin-bottom:30px}
+#main-page-meeting-bg .left-content-1 .btn-primary{color:#fff;font-size:0.9em;text-align: center;margin-top:35px;margin-bottom:0}
+#main-page-meeting-bg .left-content-1 .btn-primary:hover{color:black}
+
+#main-page-meeting-bg .right-content .card {margin-left:27px;margin-bottom:27px}
+
+#apply{
+	background:url("../images/apply-bg.jpg");
+	min-height:800px;
+	background-position: center center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;padding:130px 0;position: relative;
+}
+#apply .left-content-2 .text-up{padding:40px;background-color: rgba(250,250,250,0.14);margin-bottom:32px}
+#apply .left-content-2 .text-up h1{font-size:1.7em;margin:0}
+#apply .left-content-2 .text-up p{line-height:27px;margin:20px 0}
+#apply .left-content-2 .text-up a:hover{color:black}
+#apply .left-content-2 .text-up .reverse-a{background:#f5a425;color:black}
+#apply .left-content-2 .text-up .reverse-a:hover{;color:white}
+
+#apply .right-content-2{background:#fff;padding:40px;margin-left:70px;border-radius:20px}
+#apply .right-content-2 a{color:#3CF}
+#apply .accordion {
+  background-color: #fff;
+  color: #444;font-weight:bold;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 15px;
+  transition: 0.4s;font-family: 'Poppins', sans-serif;
+}
+
+#apply .active, #apply .accordion:hover {
+  background-color: #fff;color:#f5a425
+}
+
+#apply .accordion:after {
+	font-family:"Font Awesome 5 Free";font-size:1.3em;
+  content: '\f105';
+  color: #444;
+  font-weight: bold;
+  float: right;
+  margin-left: 5px;
+}
+
+#apply .active:after {
+	font-family:"Font Awesome 5 Free";
+  content: "\f107";color:#f5a425
+}
+
+#apply .panel {
+  padding: 0 18px;margin: 0;
+  background-color: white;color:black;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.2s ease-out;
+}
+
+#apply .right-content-2 button{font-size:1.3em}
+
+#apply .panel p{line-height: 25px}
+
+
+#popular {
+	background:url("../images/meetings-bg.jpg");
+	min-height: 500px;
+	background-position: center center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+	background-size: cover;position: absolute;width: 100%}
+#popular .headline{padding:15px 0;
+	border-bottom: 1px solid rgba(250,250,250,0.15);font-size:1.1em;}
+#ourpopular .item{background:#fff;color:black}
+#ourpopular .item h2{font-weight:400;font-size:1.25em;margin:0;padding-bottom:45px}
+#ourpopular .item .down-price{padding:25px}
+#ourpopular .item .down-price i{font-size:0.9em;color:#f5a425}
+#ourpopular .item .down-price span{color:#a12c2f;font-size:1.1em}
+.our-popular{position: relative}
+
+#ourpopular .owl-nav {
+      position: absolute; left: 0; width: 100%; top: 37%
+} 
+#ourpopular .owl-nav [class*='owl-'] {  position: absolute}
+#ourpopular .owl-nav .owl-next{ right: -80px;}
+#ourpopular .owl-nav .owl-prev{ left: -80px}
+#ourpopular .owl-nav .owl-prev span,
+#ourpopular .owl-nav .owl-next span {
+  opacity: 0;
+}
+#ourpopular .owl-nav .owl-prev:before {
+  display: inline-block;
+  font-family: "Font Awesome 5 Free";
+  color: #1e1e1e;
+  font-size: 25px;
+  font-weight: 700;
+  content: "\f104";
+  background-color: #fff;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  line-height: 50px;
+}
+#ourpopular .owl-nav .owl-next:before {
+  display: inline-block;
+  font-family:"Font Awesome 5 Free";
+  color: #1e1e1e;
+  font-size: 25px;
+  font-weight: 700;
+  content: '\f105';
+  background-color: #fff;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  line-height: 50px;
+}
+#ourpopular .owl-nav .owl-prev:hover:before, #ourpopular .owl-nav .owl-next:hover:before{ background: #ddd}
+#ourpopular .owl-dots{margin-top:45px}
+
+
+
+#fact{background:url("../images/facts-bg.jpg");
+	min-height: 400px;
+	background-position: center center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;position: absolute;width: 100%;top:470%}
+#fact .left-content-3{font-size:1.8em}
+#fact .left-content-3 .box-item h1{font-size:1.4em;margin:0}
+#fact .left-content-3 .box-item h4{font-size:0.72em;margin-top:7px;margin-bottom:0;font-weight:400}
+#fact .left-content-3 .box-item{
+	background:rgba(250,250,250,0.15);padding: 30px 54px;border-radius:20px;
+	margin-right:25px;margin-bottom:25px
+}
+#fact .right-content-3 .video-fact{
+
+	background:url("../images/video-item-bg.jpg");
+	background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    border-radius: 20px;margin-left:80px
+}
+#fact .right-content-3 .video-fact .icon-play{text-align: center;padding:170px 0}
+
+
+
+
+
+#finalform{
+	background:url("../images/meetings-bg.jpg");position: absolute;width: 100%;top:570%;min-height: 700px;
+	background-position: center center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#finalform .message-form{background:#fff;color:#1f272b;padding:40px;border-radius:20px;margin-right:15px}
+
+#finalform .message-form h1{font-size:1.6em;margin-top:0;padding-bottom:20px;border-bottom: 1px solid #eee;}
+#finalform .message-form input{
+	font-family:'Poppins', sans-serif;width:31%;height:45px;padding:15px;
+	border-radius: 20px;border:none;
+    background-color: #f7f7f7;
+}
+#finalform .message-form textarea{
+	font-family:'Poppins', sans-serif;width:100%;height:150px;padding:15px;
+	border-radius: 20px;border:none;
+    background-color: #f7f7f7;
+}
+#finalform .message-form a{font-size:0.9em}
+#finalform .message-form a:hover{color:black}
+#finalform .right-info {color:#fff;background:#a12c2f;border-radius:20px;padding:40px}
+#finalform .right-info h1{font-size:1.3em;line-height: 33px;padding-bottom:35px;border-bottom: 1px solid rgba(250,250,250,0.15);width:75%}
+#finalform .right-info  span{font-size:0.8em;font-weight: 400}
+.pb-0-border-0{padding-bottom:0 !important;border-bottom: none!important}
+/*--------UPCOMING MEETINGS PAGE-----------------*/
+#upcomingpage{
+	background:url("../images/meetings-page-bg.jpg");
+	min-height: 1000px;
+	background-position: center center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.bg-cover{
+	background: url("../images/heading-bg.jpg");
+	background-size:cover;
+	min-height: 320px;
+}
+.text-banner{padding:110px}
+.text-banner h1{margin-top:7px;font-size:2.8em}
+.text-banner h4 {margin:0;font-size:1.1em;font-weight: 400;letter-spacing: 1px}
+
+/* Style the tab */
+.tab {
+  overflow: hidden;
+	display: flex;justify-content: center
+}
+
+/* Style the buttons that are used to open the tab content */
+.tab button {
+  background-color:#fff;
+  float: left;
+  border: none;
+  outline: none;
+  cursor: pointer; margin:0 6px;
+  padding: 11px 30px; border-radius:23px;
+  transition: 0.3s; font-family:'Poppins', sans-serif;color:#a12c2f;		  
+}
+
+/* Change background color of buttons on hover */
+.tab button:hover {
+  background-color:#a12c2f;color:#fff
+}
+
+/* Create an active/current tablink class */
+.tab button.active {
+  background-color:#a12c2f;color:#fff
+}
+
+/* Style the tab content */
+.tabcontent {
+  display: none;
+  padding: 6px 12px;
+  border-top: none;
+}
+.card{
+	background:#fff;color:black;border-radius:20px;overflow: hidden;
+}
+.card .thumb{position:relative}
+.card .thumb .price{
+	position: absolute;background:rgba(255,255,255,0.9);
+	padding:7px 13px;top:6%;left:6%;border-radius:10px;font-size:1.2em;
+}
+.card .down-text{margin-left:17px;margin-top:10px}
+.card .down-text a {color:#1f272b;font-size:0.9em}
+.card .down-text h1{margin-top:0;}
+.card .down-text h6{margin-top:0;font-size:1.1em;font-weight: 400;line-height:28px}
+.card .down-text span{color:#1f272b;font-weight: bold;font-size:1.4em;}
+.card .down-text p{margin-top:0;margin-bottom:20px;line-height: 25px;}
+
+.pagnigation .pagni-number{width:38px;height:38px;line-height:38px;text-align:center;margin:0 4px;cursor:pointer;color:#1f272b;background:#fff;border-radius:10px}
+.pagnigation .pagni-number:hover{background:#a12c2f;color:white}
+.pagni-active{background:#a12c2f !important;color:white !important}
+
+/*--------UPCOMING MEETINGS PAGE < END HERE >-----------------*/
+
+
+/*--------DETAIL MEETINGS PAGE-----------------*/
+
+.big-detail{position: relative;background:#fff;color:#1f272b;border-radius:20px;overflow:hidden}
+.big-detail .price{position: absolute;background:rgba(255,255,255,0.9);
+	padding:7px 13px;top:1.2%;left:1%;border-radius:10px;font-size:1.2em;}
+.big-detail .date{position: absolute;padding:10px 25px;background:rgba(255,255,255,0.9);top:2%;right:2%;border-radius:10px}
+.big-detail .date h6{margin:0;font-size:1.1em;font-weight: 400;line-height:28px}
+.big-detail .date span{color:#1f272b;font-weight: bold;font-size:1.4em;}
+.big-detail .bottom-text{padding:40px}
+.big-detail .bottom-text h1{margin:0;font-size:1.6em}
+.big-detail .bottom-text .headline{padding-bottom: 25px;margin-bottom:40px;
+    border-bottom: 1px solid #eee;}
+.big-detail .bottom-text p{line-height: 25px;padding-bottom: 40px; border-bottom: 1px solid #eee;}
+.big-detail .bottom-text a{color:#3CF}
+.big-detail .bottom-text span  {font-size:0.8em;font-weight:400;margin-left:10px}
+.big-detail .bottom-text span a{color:#1f272b}
+.big-detail .bottom-text span a:hover{color:#f5a425}
+.big-detail .bottom-text h2{font-size:1.4em}
+.button-center a{font-size:0.9em !important;padding-left:40px;padding-right:40px}
+.button-center a:hover{color:black}
+
+footer{border-top: 1px solid rgba(250,250,250,0.15);padding:50px}
+footer .footer-content p{line-height:26px}
+footer .footer-content a{color:#f5a425}
